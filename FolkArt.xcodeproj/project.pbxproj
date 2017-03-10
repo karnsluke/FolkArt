@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75AEAB9B1E7225F400847B07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AEAB9A1E7225F400847B07 /* AppDelegate.swift */; };
+		75AEAB9D1E7225F400847B07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AEAB9C1E7225F400847B07 /* ViewController.swift */; };
+		75AEABA01E7225F400847B07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AEAB9E1E7225F400847B07 /* Main.storyboard */; };
+		75AEABA31E7225F400847B07 /* FolkArt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75AEABA11E7225F400847B07 /* FolkArt.xcdatamodeld */; };
+		75AEABA51E7225F400847B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AEABA41E7225F400847B07 /* Assets.xcassets */; };
+		75AEABA81E7225F400847B07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AEABA61E7225F400847B07 /* LaunchScreen.storyboard */; };
+		75AEABD11E72353900847B07 /* folkart.json in Resources */ = {isa = PBXBuildFile; fileRef = 75AEABD01E72353900847B07 /* folkart.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		75AEAB971E7225F400847B07 /* FolkArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FolkArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75AEAB9A1E7225F400847B07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75AEAB9C1E7225F400847B07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75AEAB9F1E7225F400847B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75AEABA21E7225F400847B07 /* FolkArt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FolkArt.xcdatamodel; sourceTree = "<group>"; };
+		75AEABA41E7225F400847B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75AEABA71E7225F400847B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75AEABA91E7225F400847B07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75AEABD01E72353900847B07 /* folkart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = folkart.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75AEAB941E7225F300847B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75AEAB8E1E7225F300847B07 = {
+			isa = PBXGroup;
+			children = (
+				75AEAB991E7225F400847B07 /* FolkArt */,
+				75AEAB981E7225F400847B07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75AEAB981E7225F400847B07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75AEAB971E7225F400847B07 /* FolkArt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75AEAB991E7225F400847B07 /* FolkArt */ = {
+			isa = PBXGroup;
+			children = (
+				75AEAB9A1E7225F400847B07 /* AppDelegate.swift */,
+				75AEAB9C1E7225F400847B07 /* ViewController.swift */,
+				75AEAB9E1E7225F400847B07 /* Main.storyboard */,
+				75AEABA41E7225F400847B07 /* Assets.xcassets */,
+				75AEABA61E7225F400847B07 /* LaunchScreen.storyboard */,
+				75AEABA91E7225F400847B07 /* Info.plist */,
+				75AEABA11E7225F400847B07 /* FolkArt.xcdatamodeld */,
+				75AEABD01E72353900847B07 /* folkart.json */,
+			);
+			path = FolkArt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75AEAB961E7225F300847B07 /* FolkArt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75AEABAC1E7225F400847B07 /* Build configuration list for PBXNativeTarget "FolkArt" */;
+			buildPhases = (
+				75AEAB931E7225F300847B07 /* Sources */,
+				75AEAB941E7225F300847B07 /* Frameworks */,
+				75AEAB951E7225F300847B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FolkArt;
+			productName = FolkArt;
+			productReference = 75AEAB971E7225F400847B07 /* FolkArt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75AEAB8F1E7225F300847B07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Luke Karns";
+				TargetAttributes = {
+					75AEAB961E7225F300847B07 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A36T66DN9U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 75AEAB921E7225F300847B07 /* Build configuration list for PBXProject "FolkArt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75AEAB8E1E7225F300847B07;
+			productRefGroup = 75AEAB981E7225F400847B07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75AEAB961E7225F300847B07 /* FolkArt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75AEAB951E7225F300847B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AEABA81E7225F400847B07 /* LaunchScreen.storyboard in Resources */,
+				75AEABA51E7225F400847B07 /* Assets.xcassets in Resources */,
+				75AEABA01E7225F400847B07 /* Main.storyboard in Resources */,
+				75AEABD11E72353900847B07 /* folkart.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75AEAB931E7225F300847B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AEAB9D1E7225F400847B07 /* ViewController.swift in Sources */,
+				75AEAB9B1E7225F400847B07 /* AppDelegate.swift in Sources */,
+				75AEABA31E7225F400847B07 /* FolkArt.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75AEAB9E1E7225F400847B07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75AEAB9F1E7225F400847B07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75AEABA61E7225F400847B07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75AEABA71E7225F400847B07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75AEABAA1E7225F400847B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75AEABAB1E7225F400847B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75AEABAD1E7225F400847B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A36T66DN9U;
+				INFOPLIST_FILE = FolkArt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.folkartalliance.FolkArt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		75AEABAE1E7225F400847B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A36T66DN9U;
+				INFOPLIST_FILE = FolkArt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.folkartalliance.FolkArt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75AEAB921E7225F300847B07 /* Build configuration list for PBXProject "FolkArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AEABAA1E7225F400847B07 /* Debug */,
+				75AEABAB1E7225F400847B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75AEABAC1E7225F400847B07 /* Build configuration list for PBXNativeTarget "FolkArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AEABAD1E7225F400847B07 /* Debug */,
+				75AEABAE1E7225F400847B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75AEABA11E7225F400847B07 /* FolkArt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75AEABA21E7225F400847B07 /* FolkArt.xcdatamodel */,
+			);
+			currentVersion = 75AEABA21E7225F400847B07 /* FolkArt.xcdatamodel */;
+			path = FolkArt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 75AEAB8F1E7225F300847B07 /* Project object */;
+}
