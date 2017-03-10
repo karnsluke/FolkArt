@@ -35,16 +35,25 @@
                                         <rect key="frame" x="0.0" y="32" width="288" height="30"/>
                                         <color key="backgroundColor" red="0.69238792540000005" green="0.69238792540000005" blue="0.69238792540000005" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Search"/>
+                                        <connections>
+                                            <action selector="searchButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ap1-We-Tig"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Odg-3D-f3h">
                                         <rect key="frame" x="0.0" y="72" width="288" height="30"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal" title="Country"/>
+                                        <connections>
+                                            <action selector="countryButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ue6-D4-hUL"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8BF-iE-O5B">
                                         <rect key="frame" x="0.0" y="112" width="288" height="30"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal" title="Media"/>
+                                        <connections>
+                                            <action selector="mediaButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bTq-zy-kpb"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>

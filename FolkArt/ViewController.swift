@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: - IBActions
+    @IBAction func searchButtonPressed(_ sender: UIButton) {
+    }
+    @IBAction func countryButtonPressed(_ sender: UIButton) {
+    }
+    @IBAction func mediaButtonPressed(_ sender: UIButton) {
+    }
+    
+    // MARK: - VC Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
