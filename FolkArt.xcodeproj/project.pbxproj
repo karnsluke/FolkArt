@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		752D37701E730821002892A7 /* folkart (1).json in Resources */ = {isa = PBXBuildFile; fileRef = 752D376F1E730821002892A7 /* folkart (1).json */; };
 		75AEAB9B1E7225F400847B07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AEAB9A1E7225F400847B07 /* AppDelegate.swift */; };
 		75AEAB9D1E7225F400847B07 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AEAB9C1E7225F400847B07 /* HomeViewController.swift */; };
 		75AEABA01E7225F400847B07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AEAB9E1E7225F400847B07 /* Main.storyboard */; };
 		75AEABA31E7225F400847B07 /* FolkArt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75AEABA11E7225F400847B07 /* FolkArt.xcdatamodeld */; };
 		75AEABA51E7225F400847B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AEABA41E7225F400847B07 /* Assets.xcassets */; };
 		75AEABA81E7225F400847B07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AEABA61E7225F400847B07 /* LaunchScreen.storyboard */; };
-		75AEABD11E72353900847B07 /* folkart.json in Resources */ = {isa = PBXBuildFile; fileRef = 75AEABD01E72353900847B07 /* folkart.json */; };
 		75AEABD31E723D1B00847B07 /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AEABD21E723D1B00847B07 /* ArtistViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		752D376F1E730821002892A7 /* folkart (1).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "folkart (1).json"; sourceTree = "<group>"; };
 		75AEAB971E7225F400847B07 /* FolkArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FolkArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AEAB9A1E7225F400847B07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75AEAB9C1E7225F400847B07 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -26,7 +27,6 @@
 		75AEABA41E7225F400847B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75AEABA71E7225F400847B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75AEABA91E7225F400847B07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75AEABD01E72353900847B07 /* folkart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = folkart.json; sourceTree = "<group>"; };
 		75AEABD21E723D1B00847B07 /* ArtistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,7 +68,7 @@
 				75AEABA61E7225F400847B07 /* LaunchScreen.storyboard */,
 				75AEABA91E7225F400847B07 /* Info.plist */,
 				75AEABA11E7225F400847B07 /* FolkArt.xcdatamodeld */,
-				75AEABD01E72353900847B07 /* folkart.json */,
+				752D376F1E730821002892A7 /* folkart (1).json */,
 			);
 			path = FolkArt;
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 				75AEABA81E7225F400847B07 /* LaunchScreen.storyboard in Resources */,
 				75AEABA51E7225F400847B07 /* Assets.xcassets in Resources */,
 				75AEABA01E7225F400847B07 /* Main.storyboard in Resources */,
-				75AEABD11E72353900847B07 /* folkart.json in Resources */,
+				752D37701E730821002892A7 /* folkart (1).json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +312,7 @@
 				75AEABAE1E7225F400847B07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
