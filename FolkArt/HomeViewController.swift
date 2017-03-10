@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     // MARK: - IBActions
     @IBAction func searchButtonPressed(_ sender: UIButton) {
