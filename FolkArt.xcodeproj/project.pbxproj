@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		752D37701E730821002892A7 /* folkart (1).json in Resources */ = {isa = PBXBuildFile; fileRef = 752D376F1E730821002892A7 /* folkart (1).json */; };
+		752D37701E730821002892A7 /* folkart.json in Resources */ = {isa = PBXBuildFile; fileRef = 752D376F1E730821002892A7 /* folkart.json */; };
 		75AEAB9B1E7225F400847B07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AEAB9A1E7225F400847B07 /* AppDelegate.swift */; };
 		75AEAB9D1E7225F400847B07 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AEAB9C1E7225F400847B07 /* HomeViewController.swift */; };
 		75AEABA01E7225F400847B07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AEAB9E1E7225F400847B07 /* Main.storyboard */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		752D376F1E730821002892A7 /* folkart (1).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "folkart (1).json"; sourceTree = "<group>"; };
+		752D376F1E730821002892A7 /* folkart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = folkart.json; sourceTree = "<group>"; };
 		75AEAB971E7225F400847B07 /* FolkArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FolkArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AEAB9A1E7225F400847B07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75AEAB9C1E7225F400847B07 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		753DC4121E7B56AA00E04A0A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		75AEAB8E1E7225F300847B07 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +68,16 @@
 		75AEAB991E7225F400847B07 /* FolkArt */ = {
 			isa = PBXGroup;
 			children = (
+				753DC4121E7B56AA00E04A0A /* Models */,
 				75AEAB9A1E7225F400847B07 /* AppDelegate.swift */,
 				75AEAB9C1E7225F400847B07 /* HomeViewController.swift */,
-				75AEAB9E1E7225F400847B07 /* Main.storyboard */,
 				75AEABD21E723D1B00847B07 /* ArtistViewController.swift */,
 				75AEABA41E7225F400847B07 /* Assets.xcassets */,
+				75AEAB9E1E7225F400847B07 /* Main.storyboard */,
 				75AEABA61E7225F400847B07 /* LaunchScreen.storyboard */,
 				75AEABA91E7225F400847B07 /* Info.plist */,
 				75AEABA11E7225F400847B07 /* FolkArt.xcdatamodeld */,
-				752D376F1E730821002892A7 /* folkart (1).json */,
+				752D376F1E730821002892A7 /* folkart.json */,
 			);
 			path = FolkArt;
 			sourceTree = "<group>";
@@ -136,7 +145,7 @@
 				75AEABA81E7225F400847B07 /* LaunchScreen.storyboard in Resources */,
 				75AEABA51E7225F400847B07 /* Assets.xcassets in Resources */,
 				75AEABA01E7225F400847B07 /* Main.storyboard in Resources */,
-				752D37701E730821002892A7 /* folkart (1).json in Resources */,
+				752D37701E730821002892A7 /* folkart.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

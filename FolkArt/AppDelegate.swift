@@ -16,8 +16,44 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
+        // Import the JSON 1 time
+        if !UserDefaults.standard.bool(forKey: "kDidImportJSON") {
+            //Import JSON here
+            let fileUrl = Bundle.main.url(forResource: "folkart", withExtension: "json")
+            if let fileUrl = fileUrl {
+                let data = try! Data.init(contentsOf: fileUrl)
+                do {
+                    let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
+                    if let json = json as? [String : [Any]] {
+                        var artists = [Artist]()
+                        for artist in json["artists"]! {
+                            if let artist = artist as? [String : String] {
+                                let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+                                let artistModel = Artist(entity: Artist.entity(), insertInto: context)
+                                artistModel.name = artist["name"]
+                                artistModel.about = artist["about"]
+                                artistModel.mediaOfWork = artist["mediaOfWork"]
+                                artists.append(artistModel)
+                            }
+                        }
+                        
+                        NSLog("test")
+                    }
+                    
+                } catch {
+                    NSLog("Error deserializing JSON: \(error)")
+                }
+                
+                
+            }
+
+            // We've imported the JSON and we want to remember that
+            UserDefaults.standard.set(true, forKey: "kDidImportJSON")
+            UserDefaults.standard.synchronize()
+
+            
+        }
+                return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

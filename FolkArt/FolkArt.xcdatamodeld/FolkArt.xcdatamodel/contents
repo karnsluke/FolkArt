@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G31" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Artist" representedClassName="Artist" syncable="YES" codeGenerationType="class">
+        <attribute name="about" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediaOfWork" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="booth" maxCount="1" deletionRule="Nullify" destinationEntity="Booth" inverseName="artists" inverseEntity="Booth" syncable="YES"/>
+        <relationship name="country" maxCount="1" deletionRule="Nullify" destinationEntity="Country" inverseName="artists" inverseEntity="Country" syncable="YES"/>
+        <relationship name="media" maxCount="1" deletionRule="Nullify" destinationEntity="Media" inverseName="artists" inverseEntity="Media" syncable="YES"/>
+    </entity>
+    <entity name="Booth" representedClassName="Booth" syncable="YES" codeGenerationType="class">
+        <attribute name="boothID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="artists" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Artist" inverseName="booth" inverseEntity="Artist" syncable="YES"/>
+    </entity>
+    <entity name="Country" representedClassName="Country" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="artists" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Artist" inverseName="country" inverseEntity="Artist" syncable="YES"/>
+    </entity>
+    <entity name="Media" representedClassName="Media" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="artists" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Artist" inverseName="media" inverseEntity="Artist" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Artist" positionX="-389" positionY="-18" width="128" height="148"/>
+        <element name="Country" positionX="-54" positionY="45" width="128" height="73"/>
+        <element name="Booth" positionX="-207" positionY="63" width="128" height="105"/>
+        <element name="Media" positionX="-198" positionY="90" width="128" height="75"/>
+    </elements>
 </model>
