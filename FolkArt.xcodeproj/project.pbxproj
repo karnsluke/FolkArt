@@ -11,23 +11,41 @@
 		75AEAB9B1E7225F400847B07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AEAB9A1E7225F400847B07 /* AppDelegate.swift */; };
 		75AEAB9D1E7225F400847B07 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AEAB9C1E7225F400847B07 /* HomeViewController.swift */; };
 		75AEABA01E7225F400847B07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AEAB9E1E7225F400847B07 /* Main.storyboard */; };
-		75AEABA31E7225F400847B07 /* FolkArt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75AEABA11E7225F400847B07 /* FolkArt.xcdatamodeld */; };
 		75AEABA51E7225F400847B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AEABA41E7225F400847B07 /* Assets.xcassets */; };
 		75AEABA81E7225F400847B07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AEABA61E7225F400847B07 /* LaunchScreen.storyboard */; };
 		75AEABD31E723D1B00847B07 /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AEABD21E723D1B00847B07 /* ArtistViewController.swift */; };
+		A5F2D64FFE2E9924C54D646B /* Pods_FolkArt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC9A6A27EABC667C9A66CE4 /* Pods_FolkArt.framework */; };
+		E4462CA11E848BEB0053EC8B /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4462CA01E848BEB0053EC8B /* Artist.swift */; };
+		E4462CA31E848CE60053EC8B /* Booth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4462CA21E848CE60053EC8B /* Booth.swift */; };
+		E4462CA51E848D2E0053EC8B /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4462CA41E848D2E0053EC8B /* Country.swift */; };
+		E4462CA71E848D3D0053EC8B /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4462CA61E848D3D0053EC8B /* Media.swift */; };
+		E46D16ED1E849849008CEA8A /* ArtistsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D16EC1E849849008CEA8A /* ArtistsTableViewController.swift */; };
+		E46D16EF1E84988A008CEA8A /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D16EE1E84988A008CEA8A /* ArtistTableViewCell.swift */; };
+		E490150A1E8484F200DE3A96 /* DataImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49015091E8484F200DE3A96 /* DataImporter.swift */; };
+		E490150C1E84864F00DE3A96 /* FAKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = E490150B1E84864F00DE3A96 /* FAKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5FC9A6A27EABC667C9A66CE4 /* Pods_FolkArt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FolkArt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		752D376F1E730821002892A7 /* folkart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = folkart.json; sourceTree = "<group>"; };
 		75AEAB971E7225F400847B07 /* FolkArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FolkArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AEAB9A1E7225F400847B07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75AEAB9C1E7225F400847B07 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		75AEAB9F1E7225F400847B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		75AEABA21E7225F400847B07 /* FolkArt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FolkArt.xcdatamodel; sourceTree = "<group>"; };
 		75AEABA41E7225F400847B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75AEABA71E7225F400847B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75AEABA91E7225F400847B07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75AEABD21E723D1B00847B07 /* ArtistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
+		B71348B45EA823C2D43DC915 /* Pods-FolkArt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FolkArt.release.xcconfig"; path = "Pods/Target Support Files/Pods-FolkArt/Pods-FolkArt.release.xcconfig"; sourceTree = "<group>"; };
+		CFCC55EC32C7B9E495F21A63 /* Pods-FolkArt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FolkArt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FolkArt/Pods-FolkArt.debug.xcconfig"; sourceTree = "<group>"; };
+		E4462CA01E848BEB0053EC8B /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		E4462CA21E848CE60053EC8B /* Booth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Booth.swift; sourceTree = "<group>"; };
+		E4462CA41E848D2E0053EC8B /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		E4462CA61E848D3D0053EC8B /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		E46D16EC1E849849008CEA8A /* ArtistsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistsTableViewController.swift; sourceTree = "<group>"; };
+		E46D16EE1E84988A008CEA8A /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
+		E49015091E8484F200DE3A96 /* DataImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataImporter.swift; sourceTree = "<group>"; };
+		E490150B1E84864F00DE3A96 /* FAKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,15 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F2D64FFE2E9924C54D646B /* Pods_FolkArt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B22B3C48A07987E69C712FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFCC55EC32C7B9E495F21A63 /* Pods-FolkArt.debug.xcconfig */,
+				B71348B45EA823C2D43DC915 /* Pods-FolkArt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		753DC4121E7B56AA00E04A0A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E4462CA01E848BEB0053EC8B /* Artist.swift */,
+				E4462CA21E848CE60053EC8B /* Booth.swift */,
+				E4462CA41E848D2E0053EC8B /* Country.swift */,
+				E4462CA61E848D3D0053EC8B /* Media.swift */,
 			);
 			name = Models;
 			path = ..;
@@ -54,6 +86,8 @@
 			children = (
 				75AEAB991E7225F400847B07 /* FolkArt */,
 				75AEAB981E7225F400847B07 /* Products */,
+				5B22B3C48A07987E69C712FA /* Pods */,
+				C88E7387001768F84254E00E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,18 +102,45 @@
 		75AEAB991E7225F400847B07 /* FolkArt */ = {
 			isa = PBXGroup;
 			children = (
-				753DC4121E7B56AA00E04A0A /* Models */,
-				75AEAB9A1E7225F400847B07 /* AppDelegate.swift */,
-				75AEAB9C1E7225F400847B07 /* HomeViewController.swift */,
-				75AEABD21E723D1B00847B07 /* ArtistViewController.swift */,
-				75AEABA41E7225F400847B07 /* Assets.xcassets */,
 				75AEAB9E1E7225F400847B07 /* Main.storyboard */,
-				75AEABA61E7225F400847B07 /* LaunchScreen.storyboard */,
-				75AEABA91E7225F400847B07 /* Info.plist */,
-				75AEABA11E7225F400847B07 /* FolkArt.xcdatamodeld */,
-				752D376F1E730821002892A7 /* folkart.json */,
+				75AEAB9A1E7225F400847B07 /* AppDelegate.swift */,
+				E4462CA81E848F8A0053EC8B /* View Controllers */,
+				753DC4121E7B56AA00E04A0A /* Models */,
+				E490150B1E84864F00DE3A96 /* FAKeys.swift */,
+				E49015091E8484F200DE3A96 /* DataImporter.swift */,
+				E4462CA91E848FA90053EC8B /* Supporting Files */,
 			);
 			path = FolkArt;
+			sourceTree = "<group>";
+		};
+		C88E7387001768F84254E00E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FC9A6A27EABC667C9A66CE4 /* Pods_FolkArt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4462CA81E848F8A0053EC8B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				75AEAB9C1E7225F400847B07 /* HomeViewController.swift */,
+				75AEABD21E723D1B00847B07 /* ArtistViewController.swift */,
+				E46D16EC1E849849008CEA8A /* ArtistsTableViewController.swift */,
+				E46D16EE1E84988A008CEA8A /* ArtistTableViewCell.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E4462CA91E848FA90053EC8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75AEABA41E7225F400847B07 /* Assets.xcassets */,
+				75AEABA61E7225F400847B07 /* LaunchScreen.storyboard */,
+				75AEABA91E7225F400847B07 /* Info.plist */,
+				752D376F1E730821002892A7 /* folkart.json */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75AEABAC1E7225F400847B07 /* Build configuration list for PBXNativeTarget "FolkArt" */;
 			buildPhases = (
+				2893F038677AD2CA70426227 /* [CP] Check Pods Manifest.lock */,
 				75AEAB931E7225F300847B07 /* Sources */,
 				75AEAB941E7225F300847B07 /* Frameworks */,
 				75AEAB951E7225F300847B07 /* Resources */,
+				7B51D5BFA29D2114699CE35D /* [CP] Embed Pods Frameworks */,
+				42B7210C154D65D4413EBD23 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +215,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2893F038677AD2CA70426227 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		42B7210C154D65D4413EBD23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FolkArt/Pods-FolkArt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B51D5BFA29D2114699CE35D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FolkArt/Pods-FolkArt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		75AEAB931E7225F300847B07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -158,8 +270,15 @@
 			files = (
 				75AEAB9D1E7225F400847B07 /* HomeViewController.swift in Sources */,
 				75AEAB9B1E7225F400847B07 /* AppDelegate.swift in Sources */,
-				75AEABA31E7225F400847B07 /* FolkArt.xcdatamodeld in Sources */,
 				75AEABD31E723D1B00847B07 /* ArtistViewController.swift in Sources */,
+				E4462CA31E848CE60053EC8B /* Booth.swift in Sources */,
+				E4462CA51E848D2E0053EC8B /* Country.swift in Sources */,
+				E4462CA71E848D3D0053EC8B /* Media.swift in Sources */,
+				E46D16EF1E84988A008CEA8A /* ArtistTableViewCell.swift in Sources */,
+				E490150C1E84864F00DE3A96 /* FAKeys.swift in Sources */,
+				E490150A1E8484F200DE3A96 /* DataImporter.swift in Sources */,
+				E46D16ED1E849849008CEA8A /* ArtistsTableViewController.swift in Sources */,
+				E4462CA11E848BEB0053EC8B /* Artist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +397,7 @@
 		};
 		75AEABAD1E7225F400847B07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFCC55EC32C7B9E495F21A63 /* Pods-FolkArt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A36T66DN9U;
@@ -291,6 +411,7 @@
 		};
 		75AEABAE1E7225F400847B07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B71348B45EA823C2D43DC915 /* Pods-FolkArt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A36T66DN9U;
@@ -324,19 +445,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		75AEABA11E7225F400847B07 /* FolkArt.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				75AEABA21E7225F400847B07 /* FolkArt.xcdatamodel */,
-			);
-			currentVersion = 75AEABA21E7225F400847B07 /* FolkArt.xcdatamodel */;
-			path = FolkArt.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 75AEAB8F1E7225F300847B07 /* Project object */;
 }

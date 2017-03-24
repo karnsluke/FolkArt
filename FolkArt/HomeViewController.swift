@@ -17,11 +17,14 @@ class HomeViewController: UIViewController {
     }
     @IBAction func mediaButtonPressed(_ sender: UIButton) {
     }
+    @IBAction func allButtonPressed(_ sender: UIButton) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "ArtistsTableViewController") as? ArtistsTableViewController
+        show(vc!, sender: self)
+    }
     
     // MARK: - VC Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-                    
     }
 
     override func didReceiveMemoryWarning() {
