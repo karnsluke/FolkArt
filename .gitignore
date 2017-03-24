@@ -26,4 +26,13 @@ xcuserdata/
 *.xccheckout
 *.xcscmblueprint
 
+## Custom
+Pods
+.DS_Store
+*.xcbkptlist
+
 # End of https://www.gitignore.io/api/xcode
+
+Pods/Manifest.lock
+
+Podfile.lock
