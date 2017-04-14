@@ -43,4 +43,40 @@ class DataImporter {
             }
         }
     }
+    static func importBooths() {
+        
+        // Build the file URL to the JSON
+        guard let fileUrl = Bundle.main.url(forResource: "booths", withExtension: "json") else {assertionFailure("File URL could not be created."); return}
+        
+        // Open the file into a Data object
+        var data: Data?
+        do {
+            data = try Data.init(contentsOf: fileUrl)
+        } catch {
+            assertionFailure("Data could not be initialized.")
+            return
+        }
+        
+        // Serialize the data into objects
+        var jsonObjects: [[String : Any]]?
+        do {
+            jsonObjects = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as? [[String : Any]]
+        } catch {
+            assertionFailure("JSON objects could not be initialized.")
+            return
+        }
+        
+        // Import them into Realm
+        let realm = try! Realm()
+        try! realm.write {
+            for boothDictionary in jsonObjects! {
+                let booth = Booth()
+                booth.latitude = (boothDictionary["BoothYLatitude"]! as! NSNumber).doubleValue
+                booth.longitude = (boothDictionary["BoothXLongitude"]! as! NSNumber).doubleValue
+                booth.id = (boothDictionary["BoothNumber"]! as! NSNumber).intValue
+                
+                realm.add(booth, update: true)
+            }
+        }
+    }
 }

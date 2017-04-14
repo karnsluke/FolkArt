@@ -17,6 +17,10 @@ class HomeViewController: UIViewController {
     }
     @IBAction func mediaButtonPressed(_ sender: UIButton) {
     }
+    @IBAction func viewMapButtonPressed(_ sender: UIButton) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "MapViewController") as? MapViewController
+        show(vc!, sender: self)
+    }
     @IBAction func allButtonPressed(_ sender: UIButton) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "ArtistsTableViewController") as? ArtistsTableViewController
         show(vc!, sender: self)

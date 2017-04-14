@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DGj-cI-rkm">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DGj-cI-rkm">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -25,7 +25,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lgZ-I4-7fB">
-                                <rect key="frame" x="20" y="64" width="374" height="182"/>
+                                <rect key="frame" x="20" y="64" width="374" height="222"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zA0-81-ani">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="22"/>
@@ -71,6 +71,15 @@
                                         </state>
                                         <connections>
                                             <action selector="allButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zmi-vI-Yvh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L7D-e4-5Rz">
+                                        <rect key="frame" x="0.0" y="192" width="374" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="View Map"/>
+                                        <connections>
+                                            <action selector="viewMapButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EXa-dz-klf"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -200,6 +209,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JsP-hH-FsB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2555" y="122"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="uCZ-m7-0Yw">
+            <objects>
+                <viewController storyboardIdentifier="MapViewController" id="E0K-i7-jGy" customClass="MapViewController" customModule="FolkArt" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EwP-yL-trj"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yip-OC-lP6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="M9h-Eu-jij">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ssJ-lK-S4t">
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                                <connections>
+                                    <outlet property="delegate" destination="E0K-i7-jGy" id="2Y9-1s-hz7"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ssJ-lK-S4t" firstAttribute="leading" secondItem="M9h-Eu-jij" secondAttribute="leading" id="JiP-qk-y6f"/>
+                            <constraint firstItem="Yip-OC-lP6" firstAttribute="top" secondItem="ssJ-lK-S4t" secondAttribute="bottom" id="P9u-uQ-Woe"/>
+                            <constraint firstAttribute="trailing" secondItem="ssJ-lK-S4t" secondAttribute="trailing" id="ZgQ-eJ-WzU"/>
+                            <constraint firstItem="ssJ-lK-S4t" firstAttribute="top" secondItem="EwP-yL-trj" secondAttribute="bottom" id="jIf-b0-C2N"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="ssJ-lK-S4t" id="O1z-Kp-5GT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oVX-ys-c7o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3270" y="105"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uMv-eE-eAd">
