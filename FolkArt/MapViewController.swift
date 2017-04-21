@@ -27,14 +27,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         for booth in results {
           mapView.addAnnotation(booth)
         }
-        
-//        // Add our test pin
-//        let booth = Booth()
-//        booth.latitude = 35.6647301
-//        booth.longitude = -105.9268076
-//        booth.id = 1
-//        
-//        mapView.addAnnotation(booth)
+      
     }
 
     override func didReceiveMemoryWarning() {

@@ -6,7 +6,8 @@
       "country" : {"name" : "China"},
         "about" : "The yak is a central to the traditional Tibetan way of life. Their wool was used to make textiles for nomadic tents. Their milk, butter and other byproducts are also culturally important. \n\nThe artisans of Door to Tibetan Arts have trained more than 700 Tibetan students in the techniques of traditional Tibetan art by pairing up master artists and young students. Among those traditions is the use of yak wool. Students are taught to hand spin the wool to turn it into threads and yarns that will be woven to create textiles. \n\nIn addition to weaving textiles, the students have learned how to construct butter boxes and milk buckets that are made from wood collected from the forests of the Tibetan plateau in a technique passed through generations. \n\nThe artisans also make a unique form of pottery whose black color comes from the way the pottery is baked in the kiln. The ceramicists put the vessel directly in the fire without any glazes or colored ceramic slips. After firing, the piece is placed in saw dust so that the pieces can cool down rapidly.",
       "mediaOfWork" : "Hand-loomed yak fiber textiles, milking boxes, pouches, bags; black pottery cups and teapots",
-              "profileImageName" : "mlan"
+              "profileImageName" : "mlan",
+              "boothID" : 1
     },
     {
       "name" : "Meeri Tuya",
@@ -14,7 +15,8 @@
       "country" : {"name" : "Kenya"},
       "about" : "Meeri Tuya is a bead artist and project manager representing Maji Moto Maasai Women’s Project in the Maji Moto Village in Kenya. Widows in the village make a living through the sales of their beadwork, fashioned from colorful beads, leather, seeds, wires, and string, and combined in artful ways in a wide range of jewelry and accessories.",
       "mediaOfWork" : "Beaded Maasai jewelry, clothing and accessories",
-              "profileImageName" : "mtuya"
+              "profileImageName" : "mtuya",
+              "boothID" : 50
     },
     {
       "name" : "Pedro Meza",
@@ -22,7 +24,8 @@
       "country" : {"name" : "Mexico"},
       "about" : "Pedro Meza’s traditional brocade designs date back to the year 600 and have been featured in ceremonial dress since the Classical Maya era. He and the weavers in his cooperative use back strap looms and finish each piece with colorful embroidery. The Maya women in highland Chiapas wear hand woven clothing nearly every day, with more ornate items being worn for special occasions. For men, traditional dress is associated with festivals and religious ceremonies. Some of Pedro’s weavings are replicas of ancient textiles that were reproduced from sculptures.",
       "mediaOfWork" : "Back strap loom woven clothing and accessories embroidered with Mayan designs",
-              "profileImageName" : "pmeza"
+              "profileImageName" : "pmeza",
+              "boothID" : 100
     }
   ]
 }

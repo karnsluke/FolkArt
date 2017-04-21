@@ -11,7 +11,7 @@ import RealmSwift
 
 class DataImporter {
     
-    static func importData() {
+    static func importArtists() {
         
         // Build the file URL to the JSON
         guard let fileUrl = Bundle.main.url(forResource: "folkart", withExtension: "json") else {assertionFailure("File URL could not be created."); return}
@@ -40,6 +40,12 @@ class DataImporter {
             for artistDict in jsonObjects!["artists"]! {
                 let artist = Artist(value: artistDict)
                 realm.add(artist, update: true)
+                
+                //connect the booth
+                if let artistDict = artistDict as? [String : Any] {
+                    let booth = realm.objects(Booth.self).filter("id = \(artistDict["boothID"]!)").first!
+                    artist.booth = booth
+                }
             }
         }
     }

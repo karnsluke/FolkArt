@@ -19,8 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Import the JSON if this is the first launch
         if !UserDefaults.standard.bool(forKey: FAKeys.didImportJSON) {
-            DataImporter.importData()
             DataImporter.importBooths()
+            DataImporter.importArtists()
             UserDefaults.standard.set(true, forKey: FAKeys.didImportJSON)
             UserDefaults.standard.synchronize()
         }

@@ -23,6 +23,11 @@ class Booth: Object, MKAnnotation {
     }
     var title: String? {
         get {
+            let realm = try! Realm()
+            let artist = realm.objects(Artist.self).filter("booth == %@", self).first
+            if artist != nil {
+                return artist!.name
+            }
             return "\(id)"
         }
     }
