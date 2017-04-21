@@ -51,4 +51,13 @@ class ArtistsTableViewController: UITableViewController {
 
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let artist = results[indexPath.row]
+        
+        let vc = storyboard?.instantiateViewController(withIdentifier: "ArtistViewController") as? ArtistViewController
+        vc?.artist = artist
+        show(vc!, sender: self)
+    }
+    
 }

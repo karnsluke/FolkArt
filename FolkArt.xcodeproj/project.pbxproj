@@ -10,8 +10,9 @@
 		751A39EC1EA0380000AD8B6F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751A39EB1EA0380000AD8B6F /* MapViewController.swift */; };
 		751A39EE1EA046D900AD8B6F /* booths.json in Resources */ = {isa = PBXBuildFile; fileRef = 751A39ED1EA046D900AD8B6F /* booths.json */; };
 		752D37701E730821002892A7 /* folkart.json in Resources */ = {isa = PBXBuildFile; fileRef = 752D376F1E730821002892A7 /* folkart.json */; };
+		757B5ADC1EA94A830032B44D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757B5ADB1EA94A830032B44D /* HomeViewController.swift */; };
 		75AEAB9B1E7225F400847B07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AEAB9A1E7225F400847B07 /* AppDelegate.swift */; };
-		75AEAB9D1E7225F400847B07 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AEAB9C1E7225F400847B07 /* HomeViewController.swift */; };
+		75AEAB9D1E7225F400847B07 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AEAB9C1E7225F400847B07 /* SearchViewController.swift */; };
 		75AEABA01E7225F400847B07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AEAB9E1E7225F400847B07 /* Main.storyboard */; };
 		75AEABA51E7225F400847B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AEABA41E7225F400847B07 /* Assets.xcassets */; };
 		75AEABA81E7225F400847B07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AEABA61E7225F400847B07 /* LaunchScreen.storyboard */; };
@@ -32,9 +33,10 @@
 		751A39EB1EA0380000AD8B6F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		751A39ED1EA046D900AD8B6F /* booths.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = booths.json; sourceTree = "<group>"; };
 		752D376F1E730821002892A7 /* folkart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = folkart.json; sourceTree = "<group>"; };
+		757B5ADB1EA94A830032B44D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		75AEAB971E7225F400847B07 /* FolkArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FolkArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AEAB9A1E7225F400847B07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75AEAB9C1E7225F400847B07 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		75AEAB9C1E7225F400847B07 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		75AEAB9F1E7225F400847B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75AEABA41E7225F400847B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75AEABA71E7225F400847B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -128,7 +130,8 @@
 		E4462CA81E848F8A0053EC8B /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				75AEAB9C1E7225F400847B07 /* HomeViewController.swift */,
+				757B5ADB1EA94A830032B44D /* HomeViewController.swift */,
+				75AEAB9C1E7225F400847B07 /* SearchViewController.swift */,
 				75AEABD21E723D1B00847B07 /* ArtistViewController.swift */,
 				E46D16EC1E849849008CEA8A /* ArtistsTableViewController.swift */,
 				751A39EB1EA0380000AD8B6F /* MapViewController.swift */,
@@ -275,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75AEAB9D1E7225F400847B07 /* HomeViewController.swift in Sources */,
+				75AEAB9D1E7225F400847B07 /* SearchViewController.swift in Sources */,
 				75AEAB9B1E7225F400847B07 /* AppDelegate.swift in Sources */,
 				75AEABD31E723D1B00847B07 /* ArtistViewController.swift in Sources */,
 				E4462CA31E848CE60053EC8B /* Booth.swift in Sources */,
@@ -283,6 +286,7 @@
 				E4462CA71E848D3D0053EC8B /* Media.swift in Sources */,
 				E46D16EF1E84988A008CEA8A /* ArtistTableViewCell.swift in Sources */,
 				751A39EC1EA0380000AD8B6F /* MapViewController.swift in Sources */,
+				757B5ADC1EA94A830032B44D /* HomeViewController.swift in Sources */,
 				E490150C1E84864F00DE3A96 /* FAKeys.swift in Sources */,
 				E490150A1E8484F200DE3A96 /* DataImporter.swift in Sources */,
 				E46D16ED1E849849008CEA8A /* ArtistsTableViewController.swift in Sources */,
@@ -410,10 +414,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A36T66DN9U;
 				INFOPLIST_FILE = FolkArt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.folkartalliance.FolkArt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -424,10 +430,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A36T66DN9U;
 				INFOPLIST_FILE = FolkArt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.folkartalliance.FolkArt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

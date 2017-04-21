@@ -10,6 +10,8 @@ import UIKit
 
 class ArtistViewController: UIViewController {
     
+    var artist: Artist?
+    
     // MARK: - Outlets
     @IBOutlet weak var profileImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
@@ -23,6 +25,13 @@ class ArtistViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        profileImageView.image = UIImage(named: artist!.profileImageName)
+        nameLabel.text = artist!.name
+        countryLabel.text = artist!.country?.name
+        //boothLabel.text = "\(artist!.booth!.id)"
+        mediaLabel.text = artist!.media?.name
+        bioTextView.text = artist!.about
     }
 
     override func viewDidLayoutSubviews() {
