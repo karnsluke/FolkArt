@@ -29,7 +29,7 @@ class ArtistViewController: UIViewController {
         profileImageView.image = UIImage(named: artist!.profileImageName)
         nameLabel.text = artist!.name
         countryLabel.text = artist!.country?.name
-        //boothLabel.text = "\(artist!.booth!.id)"
+        boothLabel.text = "Booth #\(artist!.booth!.id)"
         mediaLabel.text = artist!.media?.name
         bioTextView.text = artist!.about
     }
