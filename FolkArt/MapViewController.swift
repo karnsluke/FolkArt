@@ -55,10 +55,35 @@ class MapViewController: UIViewController, MKMapViewDelegate {
                 view = MKPinAnnotationView(annotation: annotation, reuseIdentifier: identifier)
                 view.canShowCallout = true
                 view.calloutOffset = CGPoint(x: -5, y: 5)
-                view.rightCalloutAccessoryView = UIButton(type: .detailDisclosure) as UIView
+                
+                let button = UIButton(type: .detailDisclosure)
+                button.addTarget(self, action: #selector(disclosureButtonPressed), for: .touchUpInside)
+                
+                view.rightCalloutAccessoryView = button as UIView
             }
             return view
         }
         return nil
+    }
+    
+    func disclosureButtonPressed() {
+        let annotation = mapView.selectedAnnotations.first! as! Booth
+        //Show artist in view controller
+        let vc = storyboard?.instantiateViewController(withIdentifier: "ArtistViewController") as? ArtistViewController
+        vc?.artist = annotation.artists.first
+        show(vc!, sender: self)
+    }
+    var locationManager = CLLocationManager()
+    func checkLocationAuthorizationStatus() {
+        if CLLocationManager.authorizationStatus() == .authorizedWhenInUse {
+            mapView.showsUserLocation = true
+        } else {
+            locationManager.requestWhenInUseAuthorization()
+        }
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        checkLocationAuthorizationStatus()
     }
 }

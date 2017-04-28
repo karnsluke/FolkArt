@@ -16,7 +16,7 @@
       "about" : "Meeri Tuya is a bead artist and project manager representing Maji Moto Maasai Women’s Project in the Maji Moto Village in Kenya. Widows in the village make a living through the sales of their beadwork, fashioned from colorful beads, leather, seeds, wires, and string, and combined in artful ways in a wide range of jewelry and accessories.",
       "mediaOfWork" : "Beaded Maasai jewelry, clothing and accessories",
               "profileImageName" : "mtuya",
-              "boothID" : 50
+              "boothID" : 6
     },
     {
       "name" : "Pedro Meza",
@@ -25,7 +25,66 @@
       "about" : "Pedro Meza’s traditional brocade designs date back to the year 600 and have been featured in ceremonial dress since the Classical Maya era. He and the weavers in his cooperative use back strap looms and finish each piece with colorful embroidery. The Maya women in highland Chiapas wear hand woven clothing nearly every day, with more ornate items being worn for special occasions. For men, traditional dress is associated with festivals and religious ceremonies. Some of Pedro’s weavings are replicas of ancient textiles that were reproduced from sculptures.",
       "mediaOfWork" : "Back strap loom woven clothing and accessories embroidered with Mayan designs",
               "profileImageName" : "pmeza",
-              "boothID" : 100
-    }
-  ]
+              "boothID" : 7
+    },
+    {
+              "name" : "Marie Alexandrine Rasoantenaina",
+              "media" : {"name" : "Basketry"},
+              "country" : {"name" : "Madagascar"},
+              "about" : "Marie Alexandrine Rasoanantenaina combines traditional weaving techniques with modern aesthetics to create baskets, rugs, and other household items for daily use. After researching and experimenting with leaves, bark and minerals, she can create nearly 40 bold colors from these natural sources. \n\nWeaving and basketry is the foundation of her daily life and culture. Her baskets are made from raffia and fragrant vetiver. Baskets are used for the transportation and storage of food, and are especially food safe, thanks to the natural materials and dyes. The core element of this art is the vetiver grass, which is grown and harvested by men and then woven by women. It has a natural perfume that artists carefully preserve.",
+              "mediaOfWork" : "Vetiver baskets",
+              "profileImageName" : "mrasoantenaina",
+              "boothID" : 2
+    },
+    {
+              "name" : "Rasuljon Mirzaakhmedov",
+              "media" : {"name" : "Textiles"},
+              "country" : {"name" : "Uzbekistan"},
+              "about" : "Rasuljon Mirzaakhmedov represents five generations of ikat weavers in Margilan City, Uzbekistan, the most famous place for silk production in Central Asia. His family is at the forefront of a revival of velvet ikat weaving in which white silk threads are dyed and placed on a narrow loom, a technique that is rare and complicated. The process requires a month to produce just a few yards of fabric. \n\nRasuljon has created ikat cloth for international designers to use in their yearly collections and in 2005 his work was awarded a Seal of Excellence by UNESCO. He has authored a book on natural dyes.",
+              "mediaOfWork" : "Apparel and Clothing made from natural dyes",
+              "profileImageName" : "rmirzaakhmedov",
+              "boothID" : 3
+    },
+    {
+              "name" : "Veomanee Douangdala",
+              "media" : {"name" : "Textiles"},
+              "country" : {"name" : "Laos"},
+              "about" : "Veomanee Douanagdala learned to weave at the age of eight, by helping her mother weave the easy parts of patterns for woven textiles used in daily life. She also learned how to dye from her mother, a well-respected weaver known for her knowledge of natural dyes. In 2000, Veomanee co-founded Ock PopTok. \n\nVeomanee’s silk and cotton weavings are made with indigo and other natural dyes, giving them rich and warm hues. The design and motifs represent the Tai Kadai culture and have symbolic meaning in Buddhism and animist practices. She is recognized for her traditional Lao skirts with geometric patterns. \n\nOck PopTok’s Living Crafts Center is an innovative textile gallery and workshop in Luang Prabang that provides sustainable employment to 800 artists throughout Laos. The Center allows artists to share their skills and endeavors with each other and its goal is to empower artists through celebration of their heritage.",
+              "mediaOfWork" : "Apparel and Clothing made from natural dyes",
+              "profileImageName" : "vdouangdala",
+              "boothID" : 4
+    },
+    {
+              "name" : "Akeem Ayanniyi",
+              "media" : {"name" : "Drums"},
+              "country" : {"name" : "Nigeria"},
+              "about" : "Akeem Ayanniyi makes traditional West African drums that are played for ceremonial and religious functions. Drums are among some of the oldest village-to-village communication instruments in Nigeria. \n\nThe instruments are handmade with local materials. Akeem uses from mahogany or teak, topped with cowhide, and laced with rope. The shape creates the sound of the drum. The pitch can be raised or lowered by squeezing the drum’s strings, and the artistry of playing is in the adjustment of the strings. \n\nAkeem is from a highly respected family of drummers and drum makers, going back nine generations.",
+              "profileImageName" : "aayanniyi",
+              "boothID" : 5
+    },
+    {
+              "name" : "Josnel Bruno",
+              "media" : {"name" : "Metalwork"},
+              "country" : {"name" : "Haiti"},
+              "about" : "Josnel was an apprentice to master Serge Jolimeau and is now a metalworker in Croix-des-Bouquets, Haiti, who transforms discarded oil drums into remarkable artwork with his skill and creativity. He describes himself as a “difficult child” who only found purpose once he was taught metalworking. His hammered, chiseled, punched, and incised bowls and platters represent yet another innovation within the tradition that now defines Josnel’s community to the world. Each piece is a way for him to pay tribute to his rich culture and religious beliefs. He is proud to be teaching the art to young apprentices, continuing the tradition.",
+              "profileImageName" : "jbruno",
+              "boothID" : 8
+    },
+    {
+              "name" : "Soma Artisans",
+              "media" : {"name" : "Oya"},
+              "country" : {"name" : "Turkey"},
+              "about" : "Soma Artisans creates scarves, shawls, and jewelry with oya, a traditional Turkish lacework. Historically, Anatolian women developed oya as an embellishment for clothing and home textiles. Oya serves as a means of expression and communication for Turkish women, with symbolic colors and motifs. Red is for excitement and love; blue for comfort and happiness; green for hopes and wishes. Oyas are highly valued and recycled over and over again on new items or reworked to add new motifs to the story. \n\nCreating oya requires hand weaving thread with a crochet hook and knotting each stitch. This creates the most striking feature of this artwork: its very fine three-dimensional appearance. \n\nSoma Artisans was formed after a terrible 2014 mining accident where more than 300 miners perished. Their widows joined together to take care of their families and create a steady income through sales of their art.",
+              "profileImageName" : "sartisans",
+              "boothID" : 9
+    },
+    {
+              "name" : "Hilda and Sonia Cachi Yupanqui",
+              "media" : {"name" : "Jewelry"},
+              "country" : {"name" : "Peru"},
+              "about" : "Hilda Valeriana Cachi Yupanqui is one of seven sisters who actively preserve silver working traditions passed on to them by their father, Gregorio. Archeological excavations show that some of the forms still made today, such as shawl pins, date back nearly 2,500 years. \n\nHilda, who first aspired to become an economist, brings an entrepreneurial vision to her work, introducing new techniques that result in higher-quality pieces while still maintaining older designs. Her work, which fuses modernity with tradition, is represented in the Smithsonian Institution’s collection.",
+              "profileImageName" : "hsyupanqui",
+              "boothID" : 10
+              }
+    ]
 }
