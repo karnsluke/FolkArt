@@ -411,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CFCC55EC32C7B9E495F21A63 /* Pods-FolkArt.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = A36T66DN9U;
 				INFOPLIST_FILE = FolkArt/Info.plist;
@@ -427,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B71348B45EA823C2D43DC915 /* Pods-FolkArt.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = A36T66DN9U;
 				INFOPLIST_FILE = FolkArt/Info.plist;
